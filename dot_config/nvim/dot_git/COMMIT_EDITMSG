@@ -1,0 +1,24 @@
+first commit
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .luarc.json
+#	new file:   init.lua
+#	new file:   lazy-lock.json
+#	new file:   lua/plugins.lua
+#	new file:   lua/plugins/alpha.lua
+#	new file:   lua/plugins/catppuccin.lua
+#	new file:   lua/plugins/completions.lua
+#	new file:   lua/plugins/lsp-config.lua
+#	new file:   lua/plugins/lualine.lua
+#	new file:   lua/plugins/neo-tree.lua
+#	new file:   lua/plugins/none-ls.lua
+#	new file:   lua/plugins/telescope.lua
+#	new file:   lua/plugins/treesitter.lua
+#	new file:   lua/vim-options.lua
+#
