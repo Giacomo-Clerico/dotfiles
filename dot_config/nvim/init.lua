@@ -14,7 +14,7 @@ vim.opt.rtp:prepend(lazypath)
 require("vim-options")
 require("lazy").setup("plugins")
 
-
-
+vim.env.FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -l -g ""'
+vim.env.RG_DEFAULT_COMMAND = 'rg --hidden'
 
 

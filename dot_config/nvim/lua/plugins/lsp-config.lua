@@ -34,8 +34,9 @@ return {
       lspconfig.unocss.setup({capabilities = capabilities})
       lspconfig.html.setup({capabilities = capabilities})
       lspconfig.ltex.setup({capabilities = capabilities})
-
-
+      lspconfig.pylsp.setup({capabilities = capabilities})
+      lspconfig.black.setup({capabilities = capabilities})
+      lspconfig.pyre.setup({capabilities = capabilities})
 
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
       vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
