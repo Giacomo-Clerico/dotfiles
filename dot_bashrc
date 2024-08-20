@@ -113,4 +113,7 @@ if ! shopt -oq posix; then
 fi
 
 
-eval "$(zoxide init bash)"
+eval "$(zoxide init --cmd cd bash)"
+
+export PATH="$PATH:~/.local/bin/"
+eval $(thefuck --alias)

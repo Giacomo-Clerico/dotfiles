@@ -25,6 +25,9 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+
 alias c=clear
 alias ll='ls -a'
 alias e=exit
+alias status='git status'
+alias chez='chezmoi'
